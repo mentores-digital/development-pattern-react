@@ -48,7 +48,7 @@ module.exports = {
     'import/no-cycle': 'off',
     'consistent-return': 'off',
     'no-nested-ternary': 'off',
-    'no-prototype-builtins': 'off',
+    'no-prototype-builtins': 'error',
     'import-helpers/order-imports': [
       'warn',
       {
@@ -57,11 +57,10 @@ module.exports = {
         alphabetize: { order: 'asc', ignoreCase: false },
       },
     ],
-    'import/no-unresolved': 'off',
     'import/extensions': 'off',
     'import/no-extraneous-dependencies': 'off',
-    'no-plusplus': 'off',
-    'no-console': 'off',
+    'no-plusplus': 'error',
+    'react/prop-types': 'error',
   },
   settings: {
     'import/resolver': 'babel-plugin-root-import',
