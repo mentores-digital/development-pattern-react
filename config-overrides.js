@@ -8,7 +8,6 @@ module.exports = override(
         rootPathSuffix: 'src',
       },
     ],
-    ['@babel/plugin-proposal-optional-chaining', { loose: false }],
-    'react-hot-loader/babel'
+    ['@babel/plugin-proposal-optional-chaining', { loose: false }]
   )
 );
